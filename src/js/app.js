@@ -3,8 +3,7 @@
 /* App module */
 
 var helloWorldApp = angular.module('helloWorldApp', [
-	'ngRoute',
-	'helloWorldControllers'
+	'ngRoute'
 ]);
 
 /* chapter1/app.js excerpt */
@@ -20,3 +19,4 @@ function($routeProvider, $locationProvider) {
 		controller: 'ShowCtrl'
 	})
 }])
+$locationProvider.html5Mode(false).hashPrefix('!');
