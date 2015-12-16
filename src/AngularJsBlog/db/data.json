@@ -1,0 +1,10 @@
+{
+	"_id": 1,
+	"date": 14006236232107,
+	"introText": "This is a bog post about AngularJs",
+	"blobText": "This is a blog post about Angular JS. We will cover how to build a blog and how to add comment to the blog post.",
+	"comments": [
+		{"commentText": "Very good post. I love it."},
+		{"commentText": "when can we learn services."}
+	]
+}
